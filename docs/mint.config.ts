@@ -1,0 +1,14 @@
+import { defineConfig } from "mintlify";
+
+export default defineConfig({
+  site: {
+    title: "My Project Docs",
+    description: "Documentation for my project",
+  },
+  sidebar: [
+    {
+      label: "Getting Started",
+      items: ["index", "installation"],
+    },
+  ],
+});
